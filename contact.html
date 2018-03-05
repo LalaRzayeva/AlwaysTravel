@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AlwaysTravel</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-sm navbar-inverse fixed-top bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+            <i class="fas fa-plane"></i>&nbsp;AlwaysTravel</a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="col-md-12 header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Get in touch with us</h1>
+                    <ol class="breadcrumb d-none d-sm-block col-sm-4 offset-sm-5">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active">Contact</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 contact_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2>Send message</h2>
+                    <form>
+                        <div class="form-group">
+                            <label class="sr-only" for="Name">Name</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="Name" placeholder="Name">
+                                <span class="input-group-addon">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="Email">Email</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="Email" placeholder="Email address">
+                                <span class="input-group-addon">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="Phone">Phone</label>
+                            <div class="input-group">
+                                <input type="tel" class="form-control" id="Phone" placeholder="Phone number">
+                                <span class="input-group-addon">
+                                    <i class="fas fa-phone"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="Message">Message</label>
+                            <div class="input-group">
+                                <textarea rows="5" class="form-control" id="Message" placeholder="Write message"></textarea>
+                                <span class="input-group-addon">
+                                    <i class="fas fa-comment-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Send message</button>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+
+                <div class="col-md-6 offset-md-1">
+                    <h2>Find us via map</h2>
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 contact_items_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 contact_item">
+                    <i class="fas fa-location-arrow fa-2x"></i>
+                    <h4>Address</h4>
+                    <p>71 Pilgrim Avenue</p>
+                    <p>Chevy Chase, MD 20815</p>
+                </div>
+                <div class="col-md-4 contact_item">
+                    <i class="fas fa-phone-volume fa-2x"></i>
+                    <h4>Phone</h4>
+                    <p>1-800-523-523</p>
+                    <p>1-400-623-800</p>
+                </div>
+                <div class="col-md-4 contact_item">
+                    <i class="far fa-envelope fa-2x"></i>
+                    <h4>Email</h4>
+                    <p>info@alwaystravel.com</p>
+                    <p>www.alwaystravel.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 subscribe_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <a class="navbar-brand" href="index.html">
+                        <i class="fas fa-plane fa-2x"></i>&nbsp;AlwaysTravel
+                    </a>
+                    <p>
+                        <small>Subscibe to our newsletter</small>
+                    </p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="E-mail address">
+                        <span class="input-group-btn">
+                            <button class="btn btn-secondary" type="button">Go!</button>
+                        </span>
+                    </div>
+                    <br>
+                    <ul class="inline-list">
+                        <li class="btn btn-social-icon btn-twitter">
+                            <span class="fab fa-twitter fa-lg"></span>
+                        </li>
+                        <li class="btn btn-social-icon btn-facebook">
+                            <span class="fab fa-facebook-f fa-lg"></span>
+                        </li>
+                        <li class="btn btn-social-icon btn-linkedin">
+                            <span class="fab fa-linkedin-in fa-lg"></span>
+                        </li>
+                        <li class="btn btn-social-icon btn-google">
+                            <span class="fab fa-google-plus-g fa-lg"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">&copy; 2018 Lala Rzayeva</span>
+        </div>
+    </footer>
+    <a href="#" class="scrollToTop">
+        <i class='fas fa-arrow-circle-up fa-3x'></i>
+    </a>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <!-- scrollToTop js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="./javascript/back_to_top.js"></script>
+
+    <!-- google map js-->
+    <script src="./javascript/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+</body>
+
+</html>
